@@ -1,11 +1,11 @@
-# Les Mille Couleurs — site GitHub Pages
+# Aux Mille Couleurs — site GitHub Pages
 
 Cette version est une maquette fonctionnelle du site.
 
 ## Informations à remplacer
 Les coordonnées et le lien de réservation sont fictifs :
 - Téléphone : 450 555-0187
-- Courriel : bonjour@lesmillecouleurs.ca
+- Courriel : bonjour@auxmillecouleurs.ca
 - Lien de réservation : https://example.com
 
 Les biographies sont également des textes temporaires.
