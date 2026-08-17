@@ -9,3 +9,5 @@
 
 .doctor-mini-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:22px}.doctor-mini-grid>div{background:#fbfaf7;border-radius:16px;padding:18px}.doctor-mini-grid strong,.doctor-mini-grid span{display:block}.doctor-mini-grid span{color:var(--muted);font-size:.85rem;margin-top:5px}.price-list{margin:18px 0;padding-left:20px;color:var(--muted)}.price-list li{margin:7px 0}.ramq-note{display:grid;gap:4px;margin:22px 0;padding:16px;border-radius:16px;background:var(--soft);border-left:4px solid var(--sage)}.ramq-note span{color:var(--muted);font-size:.86rem}.pediatricians{margin-top:38px}.person-content h3{margin:0 0 2px;font-family:'Playfair Display',Georgia,serif;font-size:1.65rem}.person-content .role{margin-bottom:10px}.person-content p{color:var(--muted)}
 @media(max-width:800px){.person-horizontal{grid-template-columns:1fr}.team-photo{height:280px}.doctor-mini-grid{grid-template-columns:1fr}}
+
+.process-intro{max-width:850px;margin:0 auto 10px;padding:24px 28px;background:#f5f2ed;border-radius:18px;color:#687b85}.process-intro p{margin:0;line-height:1.7}
