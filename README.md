@@ -1,28 +1,13 @@
-# Aux Mille Couleurs — site GitHub Pages
+# Aux Mille Couleurs — site Web
 
-Cette version est une maquette fonctionnelle du site.
+Site statique prêt pour GitHub Pages.
 
-## Informations à remplacer
-Les coordonnées et le lien de réservation sont fictifs :
-- Téléphone : 450 555-0187
-- Courriel : bonjour@auxmillecouleurs.ca
-- Lien de réservation : https://example.com
-
-Les biographies sont également des textes temporaires.
-
-## Modifier le site
-Le site est volontairement simple :
-- `index.html` = contenu de la page d'accueil
-- `equipe.html` = biographies
-- `style.css` = couleurs, tailles, mise en page
-- `assets/logo.png` = logo
-
-Pour modifier un texte, ouvrir le fichier HTML et remplacer le texte directement. Aucun logiciel spécial n'est nécessaire : GitHub permet de modifier les fichiers directement dans le navigateur.
-
-## GitHub Pages
-1. Créer un dépôt GitHub (par exemple `les-mille-couleurs`).
-2. Ajouter tous les fichiers et le dossier `assets`.
-3. Dans Settings → Pages, choisir la branche principale comme source.
-4. GitHub Pages générera l'adresse du site.
-
-Avant la mise en ligne publique, remplacer toutes les informations fictives et vérifier les formulations concernant la RAMQ et les services professionnels.
+## Structure
+- `index.html` : accueil
+- `evaluation.html` : processus d’évaluation
+- `equipe.html` : équipe et biographies
+- `tarifs.html` : tarifs
+- `faq.html` : FAQ
+- `tsa.html` : à propos du TSA
+- `nous-joindre.html` : coordonnées et demande de rappel
+- `assets/` : logo et photos
