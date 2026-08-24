@@ -11,3 +11,7 @@
 @media(max-width:800px){.person-horizontal{grid-template-columns:1fr}.team-photo{height:280px}.doctor-mini-grid{grid-template-columns:1fr}}
 
 .process-intro{max-width:850px;margin:0 auto 10px;padding:24px 28px;background:#f5f2ed;border-radius:18px;color:#687b85}.process-intro p{margin:0;line-height:1.7}
+
+
+.seo-link { margin-top: 1.5rem; }
+.seo-link a { font-weight: 600; }

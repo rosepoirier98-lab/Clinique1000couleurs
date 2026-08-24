@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rosepoirier98-lab.github.io/Clinique1000couleurs/sitemap.xml
