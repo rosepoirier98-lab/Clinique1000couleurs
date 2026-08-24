@@ -15,3 +15,16 @@
 
 .seo-link { margin-top: 1.5rem; }
 .seo-link a { font-weight: 600; }
+
+/* Signature « toutes ses couleurs » */
+.rainbow-word{white-space:nowrap;display:inline-block}
+.rainbow-word .rainbow-peach{color:var(--peach)}
+.rainbow-word .rainbow-gold{color:var(--gold)}
+.rainbow-word .rainbow-sage{color:#7fa58f}
+.rainbow-word .rainbow-blue{color:#6fa9c2}
+.rainbow-word .rainbow-lavender{color:var(--lav)}
+
+/* Portraits cohérents de Rose et Nathalie */
+.team-photo{width:100%;height:300px;aspect-ratio:4/5;object-fit:cover;object-position:center 25%;display:block}
+.bio-photo{width:100%;max-width:360px;height:450px;aspect-ratio:4/5;object-fit:cover;object-position:center 25%;display:block;margin:32px auto 0}
+@media(max-width:800px){.team-photo{height:300px}.bio-photo{height:450px}}
