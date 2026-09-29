@@ -28,3 +28,43 @@
 .team-photo{width:100%;height:300px;aspect-ratio:4/5;object-fit:cover;object-position:center 25%;display:block}
 .bio-photo{width:100%;max-width:360px;height:450px;aspect-ratio:4/5;object-fit:cover;object-position:center 25%;display:block;margin:32px auto 0}
 @media(max-width:800px){.team-photo{height:300px}.bio-photo{height:450px}}
+
+
+/* Navigation mobile - menu hamburger */
+.nav-toggle{position:absolute;opacity:0;pointer-events:none}
+.nav-toggle-label{display:none;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid #c9d3d0;border-radius:12px;cursor:pointer;color:var(--ink);background:#fff}
+.nav-toggle-label span,.nav-toggle-label span:before,.nav-toggle-label span:after{display:block;width:21px;height:2px;background:currentColor;border-radius:2px;position:relative;transition:.2s}
+.nav-toggle-label span:before,.nav-toggle-label span:after{content:"";position:absolute;left:0}
+.nav-toggle-label span:before{top:-7px}.nav-toggle-label span:after{top:7px}
+@media(max-width:800px){
+  .nav-wrap{position:relative;flex-wrap:nowrap;padding:10px 0;min-height:70px}
+  .nav-toggle-label{display:flex;margin-left:auto}
+  .site-header nav{display:none;width:100%;position:absolute;top:70px;left:0;right:0;padding:14px;background:rgba(251,250,247,.98);backdrop-filter:blur(10px);border:1px solid rgba(64,86,106,.08);border-radius:0 0 18px 18px;box-shadow:0 12px 25px rgba(55,75,85,.08);justify-content:flex-start;align-items:stretch;flex-direction:column;gap:4px;font-size:.92rem}
+  .site-header nav a{padding:10px 12px;border-radius:10px}
+  .site-header nav a:hover{background:#eef4f1}
+  .site-header nav .nav-button{text-align:center;margin-top:5px}
+  .nav-toggle:checked ~ nav{display:flex}
+  .nav-toggle:checked + .nav-toggle-label span{background:transparent}
+  .nav-toggle:checked + .nav-toggle-label span:before{top:0;transform:rotate(45deg)}
+  .nav-toggle:checked + .nav-toggle-label span:after{top:0;transform:rotate(-45deg)}
+}
+@media(max-width:520px){
+  .site-header nav{top:70px}
+  .contact-form input,.contact-form textarea{font-size:16px;min-height:46px}
+  .contact-form textarea{min-height:120px}
+  .button,.nav-button{min-height:44px}
+  .footer-wrap{line-height:1.7}
+}
+/* Confidentiality notice in contact form */
+.form-privacy-note{margin:0;padding:14px 16px;border-radius:14px;background:var(--soft);color:var(--muted);font-size:.84rem;line-height:1.55}
+.form-privacy-note strong{color:var(--ink)}
+/* Privacy page */
+.privacy-content{max-width:900px}
+.privacy-content article{background:#fff;border-radius:24px;padding:38px;box-shadow:var(--shadow);margin-bottom:18px}
+.privacy-content h2{font-family:'Playfair Display',Georgia,serif;font-size:1.7rem;font-weight:500;margin:0 0 12px}
+.privacy-content h3{font-size:1.05rem;margin:22px 0 8px}
+.privacy-content ul{color:var(--muted);padding-left:22px}
+.privacy-content li{margin:7px 0}
+.privacy-content p{color:var(--muted)}
+.privacy-updated{font-size:.84rem;color:var(--muted);margin-top:8px}
+@media(max-width:520px){.privacy-content article{padding:24px 20px}}
