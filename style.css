@@ -31,7 +31,7 @@
 
 
 /* Navigation mobile - menu hamburger */
-.nav-toggle{position:absolute;opacity:0;pointer-events:none}
+.nav-toggle{display:none!important;position:absolute;opacity:0;pointer-events:none;width:0;height:0}
 .nav-toggle-label{display:none;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid #c9d3d0;border-radius:12px;cursor:pointer;color:var(--ink);background:#fff}
 .nav-toggle-label span,.nav-toggle-label span:before,.nav-toggle-label span:after{display:block;width:21px;height:2px;background:currentColor;border-radius:2px;position:relative;transition:.2s}
 .nav-toggle-label span:before,.nav-toggle-label span:after{content:"";position:absolute;left:0}
