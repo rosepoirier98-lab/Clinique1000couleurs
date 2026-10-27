@@ -83,3 +83,9 @@
   .bio > .bio-photo { order:3; margin:18px auto 20px; }
   .bio > p:not(.role) { order:4; }
 }
+
+/* Liens du pied de page plus visibles et tarifs */
+.footer-wrap a{color:#d8e6e0;text-decoration:underline;text-decoration-color:rgba(216,230,224,.7);text-underline-offset:3px;transition:color .2s ease}
+.footer-wrap a:hover{color:#fff;text-decoration-color:#fff}
+.medical-pricing{padding:16px 18px;background:var(--soft);border-left:4px solid var(--sage);border-radius:0 14px 14px 0}
+.payment-note{margin:16px 0;padding:14px 16px;background:#fff;border:1px solid #d6dfdc;border-radius:14px}
