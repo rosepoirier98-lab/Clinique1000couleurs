@@ -89,3 +89,17 @@
 .footer-wrap a:hover{color:#fff;text-decoration-color:#fff}
 .medical-pricing{padding:16px 18px;background:var(--soft);border-left:4px solid var(--sage);border-radius:0 14px 14px 0}
 .payment-note{margin:16px 0;padding:14px 16px;background:#fff;border:1px solid #d6dfdc;border-radius:14px}
+
+
+/* Coordonnées présentées en colonne sur la page Nous joindre */
+.contact-info-vertical{display:flex;flex-direction:column;gap:12px;max-width:520px}
+.contact-info-vertical .contact-item{display:flex;flex-direction:column;gap:4px;background:#fff;padding:18px 20px;border-radius:16px}
+.contact-info-vertical .contact-item strong{font-size:.82rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.contact-info-vertical .contact-item span,.contact-info-vertical .contact-item a{font-size:1rem;font-weight:600}
+.contact-info-vertical .contact-item a{text-decoration:underline;text-underline-offset:3px}
+.contact-form fieldset{border:0;padding:0;margin:0;min-width:0;display:grid;gap:16px}
+.contact-form fieldset:disabled{opacity:.58}
+.contact-form fieldset:disabled input,.contact-form fieldset:disabled textarea{cursor:not-allowed}
+.contact-form fieldset:disabled button{cursor:not-allowed;opacity:.65}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(min-width:801px){.evaluation-steps article:nth-child(5){grid-column:1;grid-row:3}.evaluation-steps article:nth-child(6){grid-column:2;grid-row:3}.evaluation-steps article:nth-child(7){grid-column:2;grid-row:4}}
