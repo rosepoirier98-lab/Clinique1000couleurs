@@ -103,3 +103,4 @@
 .contact-form fieldset:disabled button{cursor:not-allowed;opacity:.65}
 .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 @media(min-width:801px){.evaluation-steps article:nth-child(5){grid-column:1;grid-row:3}.evaluation-steps article:nth-child(6){grid-column:2;grid-row:3}.evaluation-steps article:nth-child(7){grid-column:2;grid-row:4}}
+\n/* Champ honeypot invisible pour filtrer les robots du formulaire */\n.form-honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}\n
