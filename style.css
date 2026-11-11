@@ -119,3 +119,13 @@
 .footer-links{display:flex;gap:18px;flex-wrap:wrap;margin-top:8px}
 @media(max-width:800px){.footer-wrap{display:flex;flex-direction:column;gap:22px}.footer-details{margin-top:0!important}.phone-header{margin-left:0;padding:8px 10px;font-size:.8rem}}
 @media(max-width:520px){.phone-header{font-size:0;width:42px;height:42px;padding:0;position:relative}.phone-header:before{content:'☎';font-size:1.15rem}.footer-links{flex-direction:column;gap:5px}}
+
+
+/* Mise en valeur des moyens de communication sur la page Nous joindre */
+.contact-intro{font-size:1.22rem;line-height:1.75;font-weight:600;color:var(--ink);max-width:720px;margin:0 0 26px}
+.contact-info-vertical .contact-item .contact-note{font-size:.88rem;font-weight:400;line-height:1.55;color:#9aa7ad;margin-top:3px}
+.email-contact-highlight{margin-top:38px;padding:30px 34px;background:#fff;border-radius:24px;box-shadow:var(--shadow);display:flex;align-items:center;justify-content:space-between;gap:28px}
+.email-contact-highlight h2{margin:0 0 8px;font-family:'Playfair Display',Georgia,serif;font-size:1.65rem;color:var(--ink)}
+.email-contact-highlight p{margin:0;color:var(--muted)}
+.email-contact-highlight .button{white-space:nowrap}
+@media(max-width:800px){.email-contact-highlight{align-items:flex-start;flex-direction:column;padding:25px}.email-contact-highlight .button{width:100%;text-align:center}.contact-intro{font-size:1.1rem}}
