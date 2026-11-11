@@ -129,3 +129,11 @@
 .email-contact-highlight p{margin:0;color:var(--muted)}
 .email-contact-highlight .button{white-space:nowrap}
 @media(max-width:800px){.email-contact-highlight{align-items:flex-start;flex-direction:column;padding:25px}.email-contact-highlight .button{width:100%;text-align:center}.contact-intro{font-size:1.1rem}}
+
+
+/* Bloc courriel intégré à la carte téléphonique sur la page Nous joindre */
+.booking-card .email-contact-highlight{margin-top:28px;padding:24px 0 0;border-top:1px solid #e8ece9;border-radius:0;background:transparent;box-shadow:none;display:flex;flex-direction:column;align-items:stretch;gap:14px}
+.booking-card .email-contact-highlight h3{font-family:inherit;font-size:1.12rem;font-weight:700;color:var(--ink);margin:0 0 6px}
+.booking-card .email-contact-highlight p{margin:0;color:var(--muted);line-height:1.6}
+.booking-card .email-contact-highlight .button{width:100%;text-align:center;white-space:normal}
+@media(max-width:800px){.booking-card .email-contact-highlight{padding:22px 0 0}.booking-card .email-contact-highlight .button{width:100%}}
